@@ -36,7 +36,7 @@ const Portfolio = ({ fetchPortfolio, portfolioData }) => {
                         <a href={`${url}`} className="blog-post-link" target="_blank" rel="noopener noreferrer">
                           <img
                             src={`${process.env.PUBLIC_URL}/assets/images/portfolio/${img}`}
-                            alt="news 6"
+                            alt={`${img}`}
                             className="blog-post-thumbnail"
                           />
                           <h5 className="blog-post-title" style={{ fontWeight: "800" }}>{title}</h5>

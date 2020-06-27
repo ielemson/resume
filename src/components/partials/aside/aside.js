@@ -8,7 +8,7 @@ const aside = (props) => {
   return (
     <aside>
       <div className="profile-img-wrapper">
-        <img src="assets/images/profile/Profile.png" alt="profile" />
+        <img src="assets/images/profile/ifeanyi.jpg" alt="profile" />
       </div>
       <h1 className="profile-name">Elemson Ifeanyi</h1>
       <div className="text-center">
