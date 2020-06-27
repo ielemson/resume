@@ -1,0 +1,77 @@
+{
+  "education": [
+    {
+      "year": "1999 - 2002",
+      "school": "Gladys Nursery And Primary School",
+      "title": "First Leaving School Certificate",
+      "location": "Demurin,Ketu Lagos State Nigeria"
+    },
+    {
+      "year": "2002 - 2005",
+      "school": "Junior Secondary School",
+      "title": "Assfood College",
+      "location": "Ketu Lagos State Nigeria."
+    },
+    {
+      "year": "2005 - 2008",
+      "school": "Senior Secondary School",
+      "title": "Zeekay College",
+      "location": "Ikorodu Lagos State Nigeria."
+    },
+    {
+      "year": "2010 - 2012",
+      "school": "National Diploma in Computer Science",
+      "title": "Federal polytechnic Nekede –Owerri Imo State Nigeria",
+      "location": "Nekede, Owerri , Imo State Nigeria"
+    },
+    {
+      "year": "2013 - 2015",
+      "school": "Higher National Diploma in Computer Science",
+      "title": "Federal polytechnic Nekede –Owerri Imo State Nigeria",
+      "location": "Nekede, Owerri , Imo State Nigeria"
+    },
+    {
+      "year": "2016 - 2017",
+      "school": "Excel Academy Katsina",
+      "title": "NYSC Discharge Certificate",
+      "location": "Kofar Kwaya Katsina Sate, Lagos Nigeria"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "year": "2018 - Present",
+      "jobtitle": " Web Admin / IT Support.",
+      "company": "Subsea Services Ltd ",
+      "jobdesc": "Maintain Company Website. Manage company email account. Manage Company hardware / software"
+    },
+    {
+      "id": 1,
+      "year": "2016 - 2017",
+      "jobtitle": " Front End Web Developer.",
+      "company": "Rytegate Technologie",
+      "jobdesc": "Create front end website using Laravel Maintain and upgrade company official website"
+    },
+    {
+      "id": 1,
+      "year": "2016 - 2017",
+      "jobtitle": " Technical Support Engr.",
+      "company": "Zeta Web Nig Ltd",
+      "jobdesc": "Respond to customer technical issues and proffer solution.Attend to customer requests and ensure optimum satisfaction"
+    },
+    {
+      "id": 2,
+      "year": "2013 - 2014",
+      "jobtitle": " Iway Africa Support Assistant (SIWES).",
+      "company": "Iway Africa ",
+      "jobdesc": "Escalate unresolved technical issues to my team for proper action. Monitor and ensure stability with customer’s link."
+    },
+    {
+      "id": 3,
+      "year": "2013 - 2013",
+      "jobtitle": " Assistant/Consultant Trainee (SIWES).",
+      "company": "Intaphaze Consulting Ltd",
+      "jobdesc": "Attend to customer’s request (Hardware repairs, Training, Maintenance etc.) Ensure customer’s goods are safe and/or delivered promptly"
+    }
+  ]
+}
