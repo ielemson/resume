@@ -9,7 +9,7 @@ import store from "./redux/store";
 const App = () => {
 
   return (
-    <BrowserRouter forceRefresh={true} basename={process.env.PUBLIC_URL}>
+    <BrowserRouter forceRefresh={true}>
       <Routes />
     </BrowserRouter>
   );
