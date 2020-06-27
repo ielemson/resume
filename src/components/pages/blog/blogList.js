@@ -2,6 +2,8 @@ import React, { useEffect, Fragment } from "react";
 import { connect } from "react-redux"
 import { fetchBlog } from "../../../redux/blog/blogActions"
 import { HeaderPartial, AsidePartial, Footer } from "../../partials";
+import PuffLoader from "react-spinners/PuffLoader";
+
 const Blog = ({ fetchBlog, blogData }) => {
 
   useEffect(() => {
@@ -25,7 +27,14 @@ const Blog = ({ fetchBlog, blogData }) => {
 
             </p>
             {blogData.loading ? (
-              <h2>Loading</h2>
+              <div className="sweet-loading">
+                <PuffLoader
+                  size={60}
+                  color={"#123abc"}
+                  loading={blogData.loading}
+                />
+            Please Wait...
+              </div>
             ) : blogData.error ?
                 (<h2>{blogData.error}</h2>) : (
                   <div className="blog-posts-wrapper">

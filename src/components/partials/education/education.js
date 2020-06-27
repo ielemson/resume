@@ -1,13 +1,21 @@
 import React, { useEffect, Fragment } from "react";
 import { connect } from "react-redux";
 import { fetchEducation } from "../../../redux/education";
+import PuffLoader from "react-spinners/PuffLoader";
 
 const Education = ({ educationData, fetchEducation }) => {
   useEffect(() => {
     fetchEducation();
   }, [fetchEducation]);
   return educationData.loading ? (
-    <h2>Loading</h2>
+    <div className="sweet-loading">
+      <PuffLoader
+        size={60}
+        color={"#123abc"}
+        loading={educationData.loading}
+      />
+      Please Wait...
+    </div>
   ) : educationData.error ? (
     <h2>{educationData.error}</h2>
   ) : (

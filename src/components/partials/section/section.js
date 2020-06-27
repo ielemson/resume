@@ -76,8 +76,8 @@ const section = () => {
             <div className="media-body">
               <h5 className="service-title">Development</h5>
               <p className="service-description">
-                I have 2years experience in front end web development, using
-                modern tools for exceptional result and meeting deadline
+                I have 3years experience in front end web development, using
+                modern tools for exceptional result and meeting deadline.
               </p>
             </div>
           </div>

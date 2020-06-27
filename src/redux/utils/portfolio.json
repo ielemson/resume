@@ -37,7 +37,7 @@
         },
         {
             "id": 6,
-            "title": "React Ecommerce",
+            "title": "React E-commerce",
             "desc": "Testing my react skills and how to host on heroku platform. This dummy website was build with Material booststap and React JS Built it for learning purpose",
             "url": "https://ecomerce-react.herokuapp.com/",
             "img": "comerce.png"

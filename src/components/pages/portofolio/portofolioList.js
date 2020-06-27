@@ -2,7 +2,7 @@ import React, { useEffect, Fragment } from "react";
 import { connect } from "react-redux"
 import { fetchPortfolio } from "../../../redux/portofolio/PortfolioActions"
 import { HeaderPartial, AsidePartial, Footer } from "../../partials";
-
+import PuffLoader from "react-spinners/PuffLoader";
 
 const Portfolio = ({ fetchPortfolio, portfolioData }) => {
 
@@ -20,7 +20,14 @@ const Portfolio = ({ fetchPortfolio, portfolioData }) => {
           <section class="blog-section">
             <h2 class="section-title">My Portofolio</h2>
             {portfolioData.loading ? (
-              <h2>Loading</h2>
+              <div className="sweet-loading">
+                <PuffLoader
+                  size={60}
+                  color={"#123abc"}
+                  loading={portfolioData.loading}
+                />
+             Please Wait...
+              </div>
             ) : portfolioData.error ?
                 (<h2>{portfolioData.error}</h2>) : (
                   <div className="blog-posts-wrapper">

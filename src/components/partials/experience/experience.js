@@ -1,13 +1,21 @@
 import React, { useEffect, Fragment } from "react";
 import { connect } from "react-redux";
 import { fetchExperience } from "../../../redux/experience";
+import PuffLoader from "react-spinners/PuffLoader";
 
 const Experience = ({ experienceData, fetchExperience }) => {
   useEffect(() => {
     fetchExperience();
   }, [fetchExperience]);
   return experienceData.loading ? (
-    <h2>Loading</h2>
+    <div className="sweet-loading">
+      <PuffLoader
+        size={60}
+        color={"#123abc"}
+        loading={experienceData.loading}
+      />
+    Please Wait...
+    </div>
   ) : experienceData.error ? (
     <h2>{experienceData.error}</h2>
   ) : (
