@@ -1,0 +1,53 @@
+{
+    "portfolios": [
+        {
+            "id": 1,
+            "title": "Subsea Services Limited",
+            "desc": "My role: Built site in HTML5 CSS3, Laravel Framework, MYSQL, and Mailgun for receiving contact information through   email",
+            "url": "http://www.subsealtd.com",
+            "img": "subsea.png"
+        },
+        {
+            "id": 2,
+            "title": "React Contact List",
+            "desc": "This is a simple contact list, built with react , firebase and material bootstrap,. Built it for learning purpose",
+            "url": "https://react-contact-lists.herokuapp.com/",
+            "img": "contact.png"
+        },
+        {
+            "id": 3,
+            "title": "FLix App",
+            "desc": "This is a personal project, hosted on netlify platform. It is still in its early stage. Buil with Angular, MongoDB, and Bootstrap material design.Built it for learning purpose",
+            "url": "https://flixap.netlify.app/",
+            "img": "minflix.png"
+        },
+        {
+            "id": 4,
+            "title": "GloryPlus International",
+            "desc": "This is a project I embarked with a colleague, hosted on Heroku platform. It is still in developmental stage.",
+            "url": "http://www.gloryplusinternational.org/",
+            "img": "gloryplus.png"
+        },
+        {
+            "id": 5,
+            "title": "LMS",
+            "desc": "This a real world application that I am currently building with my team,my role is to handle the front end. Built frontend: React, Backend: Laravel, it is still in testing stage.",
+            "url": "https://royal7.netlify.app/",
+            "img": "edcollab.png"
+        },
+        {
+            "id": 6,
+            "title": "React Ecommerce",
+            "desc": "Testing my react skills and how to host on heroku platform. This dummy website was build with Material booststap and React JS Built it for learning purpose",
+            "url": "https://ecomerce-react.herokuapp.com/",
+            "img": "comerce.png"
+        },
+        {
+            "id": 7,
+            "title": "Video Idea",
+            "desc": "Built this website with React and Firebase, A platform simply to add video ideas, used it for learning purpose",
+            "url": "https://peaceful-bayou-70202.herokuapp.com/",
+            "img": "vid_idea.png"
+        }
+    ]
+}

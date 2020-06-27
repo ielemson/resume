@@ -1,0 +1,40 @@
+{
+    "education": [
+        {
+            "year": "1999 - 2002",
+            "school": "Gladys Nursery And Primary School",
+            "title": "First Leaving School Certificate",
+            "location": "Demurin,Ketu Lagos State Nigeria"
+        },
+        {
+            "year": "2002 - 2005",
+            "school": "Junior Secondary School",
+            "title": "Assfood College",
+            "location": "Ketu Lagos State Nigeria."
+        },
+        {
+            "year": "2005 - 2008",
+            "school": "Senior Secondary School",
+            "title": "Zeekay College",
+            "location": "Ikorodu Lagos State Nigeria."
+        },
+        {
+            "year": "2010 - 2012",
+            "school": "National Diploma in Computer Science",
+            "title": "Federal polytechnic Nekede –Owerri Imo State Nigeria",
+            "location": "Nekede, Owerri , Imo State Nigeria"
+        },
+        {
+            "year": "2013 - 2015",
+            "school": "Higher National Diploma in Computer Science",
+            "title": "Federal polytechnic Nekede –Owerri Imo State Nigeria",
+            "location": "Nekede, Owerri , Imo State Nigeria"
+        },
+        {
+            "year": "2016 - 2017",
+            "school": "Excel Academy Katsina",
+            "title": "NYSC Discharge Certificate",
+            "location": "Kofar Kwaya Katsina Sate, Lagos Nigeria"
+        }
+    ]
+}

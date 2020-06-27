@@ -6,7 +6,7 @@ import {
   FETCH_EXPERIENCE_FAILURE,
 } from "./experienceTypes";
 
-const API_URL = `${process.env.PUBLIC_URL}/utils/experience.json`;
+const API_URL = "../utils/experience.json"
 export const fetchExperience = () => {
   return (dispatch) => {
     dispatch(fetchExperienceRequest());

@@ -4,7 +4,7 @@ import {
   FETCH_PORTFOLIO_SUCCESS,
   FETCH_PORTFOLIO_FAILURE,
 } from "./PortfolioTypes";
-const API_URL = `${process.env.PUBLIC_URL}/utils/portfolio.json`;
+const API_URL = "../utils/portfolio.json"
 export const fetchPortfolio = () => {
   return (dispatch) => {
     dispatch(fetchPortfolioRequest());

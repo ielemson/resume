@@ -4,7 +4,7 @@ import {
   FETCH_EDUCATION_SUCCESS,
   FETCH_EDUCATION_FAILURE,
 } from "./educationTypes";
-const API_URL = `${process.env.PUBLIC_URL}/utils/education.json`;
+const API_URL = "../utils/education.json"
 export const fetchEducation = () => {
   return (dispatch) => {
     dispatch(fetchEducationRequest());

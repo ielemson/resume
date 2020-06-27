@@ -4,7 +4,7 @@ import {
   FETCH_BLOG_SUCCESS,
   FETCH_BLOG_FAILURE,
 } from "./blogTypes";
-const API_URL = `${process.env.PUBLIC_URL}/utils/blogs.json`;
+const API_URL = "../utils/blogs.json"
 export const fetchBlog = () => {
   return (dispatch) => {
     dispatch(fetchBlogRequest());
