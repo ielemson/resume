@@ -20,11 +20,10 @@ const Blog = ({ fetchBlog, blogData }) => {
           <section class="blog-section">
             <h2 class="section-title">Blog Posts</h2>
             <p style={{ fontSize: "1rem" }}>
-              My aim with this page is to post tutorials linked to my youtube account, From my years of experience, I have to understand that mosit tutorials out there are not beginners friendly. I intend to change that...
+              My aim with this page is to post tutorials linked to my youtube page, From my years of experience, as a self taught developer, I came to  understand that most tutorials out there are not beginners friendly. I intend to change that...
               <br />
-              For now , the posts below are all dummy posts , I will be updating them soon ....
-
-
+              For now , the posts below are all dummy posts , I will be updating them soon .... Please ensure to check back at a later time
+              {" "}<i className="fa fa-clock"></i> ....
             </p>
             {blogData.loading ? (
               <div className="sweet-loading">
