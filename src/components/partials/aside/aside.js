@@ -83,6 +83,23 @@ const aside = (props) => {
           </div>
         </div>
       </div>
+      <div className="widget card">
+        <div className="card-body">
+          <div className="widget-content">
+            <h5 className="widget-title card-title">STACK</h5>
+            <p>Vanilla Javascript</p>
+            <p>React Js</p>
+            <p>Node JS</p>
+            <p>Express JS</p>
+            <p>Mongo DB</p>
+            <p>PHP OOP</p>
+            <p>Laravel FrameWork</p>
+            <p>MySQL</p>
+            <p>CSS</p>
+            <p>Bootstrap</p>
+          </div>
+        </div>
+      </div>
     </aside>
   );
 };

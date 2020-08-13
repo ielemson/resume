@@ -14,23 +14,23 @@ const Experience = ({ experienceData, fetchExperience }) => {
         color={"#123abc"}
         loading={experienceData.loading}
       />
-    Please Wait...
+      Please Wait...
     </div>
   ) : experienceData.error ? (
     <h2>{experienceData.error}</h2>
   ) : (
-        <Fragment>
-          {experienceData.experienceObj.map((experience) => (
-            <li className="time-line-item">
-              <span className="badge badge-primary">{experience.year}</span>
-              <h6 className="time-line-item-title">{experience.company}</h6>
-              <p className="time-line-item-subtitle">{experience.jobtitle}</p>
-              <p className="time-line-item-content">{experience.jobdesc}</p>
-            </li>
-          ))}
-          {/* {console.log(experienceData)} */}
-        </Fragment>
-      );
+    <Fragment>
+      {experienceData.experienceObj.map((experience) => (
+        <li className="time-line-item" key={experience.id}>
+          <span className="badge badge-primary">{experience.year}</span>
+          <h6 className="time-line-item-title">{experience.company}</h6>
+          <p className="time-line-item-subtitle">{experience.jobtitle}</p>
+          <p className="time-line-item-content">{experience.jobdesc}</p>
+        </li>
+      ))}
+      {/* {console.log(experienceData)} */}
+    </Fragment>
+  );
 };
 
 const mapStateToProps = (state) => {

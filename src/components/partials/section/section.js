@@ -7,17 +7,20 @@ const section = () => {
       <section className="intro-section">
         <h2 className="section-title">About Me</h2>
         <p>
-          I am a creative self-taught front-end web developer with roughly 2
+          I am a creative self-taught front-end web developer with roughly 3
           years’ experience. Currently residing in Lagos, Nigeria. I am
           proficient in JavaScript libraries and frameworks such as React and
           Angular. I have also worked with PHP framework such as Laravel. I am
           knowledgeable with back end technologies like SQL, and NoSQL. I adapt
-          well under pressure and learn fast. Consistent with research and
-          abreast with recent web technologies. It will be a privilege to
-          partner with you in any project you may be working on. Contact me and
-          let us share ideas on how to make your ideas a reality.
+          well under pressure and a fast learner. Consistent with research and
+          abreast with recent technologies. It will be a priviledge to partner
+          with you. Contact me and let us share ideas on how to make your ideas
+          a reality.
         </p>
-        <a href="mailto:ielemson@gmail.com" className="btn btn-primary btn-hire-me">
+        <a
+          href="mailto:ielemson@gmail.com"
+          className="btn btn-primary btn-hire-me"
+        >
           HIRE ME
         </a>
       </section>
@@ -49,7 +52,7 @@ const section = () => {
               <img src="assets/images/001-target.svg" alt="target" />
             </div>
             <div className="media-body">
-              <h5 className="service-title">Web designing</h5>
+              <h5 className="service-title">Web Design</h5>
               <p className="service-description">
                 I deliver exceptional responsive website for different devices,
                 for individuals and coperate body.
@@ -61,10 +64,10 @@ const section = () => {
               <img src="assets/images/003-idea.svg" alt="bulb" />
             </div>
             <div className="media-body">
-              <h5 className="service-title">Graphic design</h5>
+              <h5 className="service-title">Graphic Design</h5>
               <p className="service-description">
                 I have a team of experienced graphic designers that handle all
-                graphics relate projects with exceptional picture quality and a
+                graphics related projects with exceptional picture quality and a
                 touch of excellence.
               </p>
             </div>
@@ -74,10 +77,11 @@ const section = () => {
               <img src="assets/images/002-development.svg" alt="development" />
             </div>
             <div className="media-body">
-              <h5 className="service-title">Development</h5>
+              <h5 className="service-title">Web Development</h5>
               <p className="service-description">
-                I have 3years experience in front end web development, using
-                modern tools for exceptional result and meeting deadline.
+                I have +3years experience in front end web development, using
+                modern tools for exceptional result,good customer relation, and
+                prompt delivery.
               </p>
             </div>
           </div>
@@ -86,7 +90,7 @@ const section = () => {
               <img src="assets/images/004-smartphone.svg" alt="smartphone" />
             </div>
             <div className="media-body">
-              <h5 className="service-title">Mobile design</h5>
+              <h5 className="service-title">Mobile App Design</h5>
               <p className="service-description">
                 I have a team who specialize in mobile app design using latest
                 technologies for exceptional result in mobile app development
