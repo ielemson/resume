@@ -33,9 +33,7 @@ const Aside = () => {
         <h5 className="widget-title">personal information</h5>
         <div className="widget-content">
           <p>BIRTHDAY : 07 July</p>
-          {/* <p>
-WEBSITE : <a href="/">elemson.netlify.app</a>
-</p> */}
+
           <p>PHONE : +234 8067407355</p>
           <p>
             MAIL : <a href="mailto:ielemson@gmail.com">ielemson@gmail.com</a>
