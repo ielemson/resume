@@ -1,10 +1,13 @@
 import axios from "axios";
+
 import {
   FETCH_EDUCATION_REQUEST,
   FETCH_EDUCATION_SUCCESS,
   FETCH_EDUCATION_FAILURE,
 } from "./educationTypes";
+
 const API_URL = "../utils/education.json"
+
 export const fetchEducation = () => {
   return (dispatch) => {
     dispatch(fetchEducationRequest());
