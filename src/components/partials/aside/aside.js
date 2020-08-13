@@ -1,10 +1,6 @@
 import React from "react";
-// import axios from "axios";
-// import { Link } from "react-router-dom";
-// import PropTypes from 'prop-types'
 
-// const fileName = "./elemson-ifeanyi-cv.pdf";
-const aside = (props) => {
+const Aside = () => {
   return (
     <aside>
       <div className="profile-img-wrapper">
@@ -38,8 +34,8 @@ const aside = (props) => {
         <div className="widget-content">
           <p>BIRTHDAY : 07 July</p>
           {/* <p>
-            WEBSITE : <a href="/">elemson.netlify.app</a>
-          </p> */}
+WEBSITE : <a href="/">elemson.netlify.app</a>
+</p> */}
           <p>PHONE : +234 8067407355</p>
           <p>
             MAIL : <a href="mailto:ielemson@gmail.com">ielemson@gmail.com</a>
@@ -47,7 +43,7 @@ const aside = (props) => {
           <p>Location : Lagos Nigeria</p>
 
           <a
-            href="https://drive.google.com/file/d/1m4CXwRaGo6qd0s7SfyyexLwnYzYuWTrv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1r51Ew70YOGx_fy2FSlH40531lV-j9VDS/view?usp=sharing"
             className="btn btn-download-cv btn-primary rounded-pill"
             target="_blank"
             rel="noopener noreferrer"
@@ -104,4 +100,4 @@ const aside = (props) => {
   );
 };
 
-export default aside;
+export default Aside;
