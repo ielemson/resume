@@ -7,7 +7,7 @@ import {
   Error404Page,
   BlogComponent,
   BlogDetailsComponent,
-  PortfolioComponent
+  PortfolioComponent,
 } from "./components/pages";
 // import { Home } from "./components/pages";
 const Routes = () => {
@@ -22,7 +22,7 @@ const Routes = () => {
           render={() => (
             <Fragment>
               <Helmet>
-                <title>Porto-Folio</title>
+                <title>Home✨</title>
               </Helmet>
               <Home />
             </Fragment>
@@ -32,28 +32,28 @@ const Routes = () => {
         {/* GENERAL ROUTE - NONE PROTECTED ############################################*/}
         <Route path="/contact">
           <Helmet>
-            <title>Porto-Folio::contact</title>
+            <title>Contact☎️</title>
           </Helmet>
           <ContactComponent />
         </Route>
 
         <Route path="/blogs">
           <Helmet>
-            <title>blogs</title>
+            <title>Blog✍️</title>
           </Helmet>
           <BlogComponent />
         </Route>
 
         <Route path="/blog/:id">
           <Helmet>
-            <title>blog</title>
+            <title>Blog✍️</title>
           </Helmet>
           <BlogDetailsComponent />
         </Route>
 
         <Route path="/portfolio">
           <Helmet>
-            <title>my portfolio</title>
+            <title>Portofolio📚</title>
           </Helmet>
           <PortfolioComponent />
         </Route>
