@@ -36,9 +36,9 @@ const Aside = () => {
 
           <p>PHONE : +234 8067407355</p>
           <p>
-            MAIL : <a href="mailto:ielemson@gmail.com">ielemson@gmail.com</a>
+            E-MAIL : <a href="mailto:ielemson@gmail.com">ielemson@gmail.com</a>
           </p>
-          <p>Location : Lagos Nigeria</p>
+          <p>LOCATION : Lagos State, Nigeria</p>
 
           <a
             href="https://drive.google.com/file/d/1r51Ew70YOGx_fy2FSlH40531lV-j9VDS/view?usp=sharing"
@@ -82,6 +82,7 @@ const Aside = () => {
           <div className="widget-content">
             <h5 className="widget-title card-title">STACK</h5>
             <p>Vanilla Javascript</p>
+            <p>Jquery</p>
             <p>React Js</p>
             <p>Node JS</p>
             <p>Express JS</p>
